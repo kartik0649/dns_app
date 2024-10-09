@@ -17,6 +17,6 @@ RUN pip install requests
 
 USER root
 
-COPY --chown=asg8830:asg8830 . .
+COPY --chown=kk5243:kk5243 . .
 
 CMD [ "python", "./AS.py" ]
